@@ -1,4 +1,4 @@
-Le fichier "Bat.csv" contient des phrases dans lesquelles le mot **"bat"** doit être interprété comme "batte de baseball" ET des phrases dans lesquelles le mot "bat" doit être interprété comme "chauve-souris".
+Le fichier ["Bat-both.csv"](https://github.com/GwenTsang/BERT_experiments/blob/main/Materials%20and%20data%20cleaning/bat-both.csv) contient des phrases dans lesquelles le mot **"bat"** doit être interprété comme "batte de baseball" ET des phrases dans lesquelles le mot "bat" doit être interprété comme "chauve-souris".
 La première partie des lignes (index `df.iloc[0, 0]` à `df.iloc[64, 0]` inclus) contient des phrases où « bat » fait référence à une batte de baseball.
 Les lignes restantes (index `df.iloc[65, 0]` à `df.iloc[129, 0]` inclus) contiennent des phrases où « bat » fait référence à la chauve-souris. 
 
